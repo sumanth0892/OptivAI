@@ -1,0 +1,17 @@
+# Environment settings
+env_name: "Eplus-5Zone-hot-continuous-v1"
+comfort_range: [20.0, 25.0]  # Temperature comfort range in Celsius
+
+# Network architecture
+hidden_dim: 256
+
+# Training settings
+learning_rate: 3.0e-4
+batch_size: 64
+buffer_capacity: 100000
+num_episodes: 1000
+max_steps: 1000
+
+# PPO specific settings
+ppo_epochs: 10
+clip_epsilon:
